@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>School Registration</title>
+        <link rel="stylesheet" href="./bootstrap.min.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html">Lumen et Veritas Academy</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="school-register.html">Register School</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="student-register.html">Register Student</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="student-login.html">Login</a>
+                        </li>
+                        <li class="nav-item collapse">
+                            <a class="nav-link active" href="quiz.html">Quiz</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="school_register">
+            <h2>School Registration Form</h2>
+        </div>
+        <form action="" class="form">
+            <div class="form-group mb-3">
+                <label for="" class="form-label">School Name</label>
+                <input type="text" id="school_name" class="input form-control">
+                <span></span>
+            </div>
+            <div class="form-group mb-3">
+                <label for="" class="form-label">Email Address</label>
+                <input type="email" id="school_email" class="input form-control">
+                <span></span>
+            </div>
+            <div class="form-group mb-3">
+                <label for="" class="form-label">Phone Number</label>
+                <input type="text" id="school_phone" class="input form-control">
+                <span></span>
+            </div>
+            <div class="form-group mb-3">
+                <label for="" class="form-label">State</label>
+                <input type="text" name="" id="school_state" class="input form-control">
+                <span></span>
+            </div>
+            <div class="form-group mb-3">
+                <label for="" class="form-label">Address</label>
+                <textarea name="" id="school_address" class="form-control input" cols="30" rows="5"></textarea>
+                <span></span>
+            </div>  
+            <div class="schRegister"><button id="schRegisterBtn" class="btn">Submit</button></div>     
+        </form>
+    </main>
+</body>
+
+<script src="./school-register.js"></script>
+</html>

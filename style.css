@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eeeeee;
+}
+.navbar{
+    background-color: white;
+}
+
+/* home page */
+/* section1 */
+.section1{
+    /* padding-top: 100px; */
+    height: 550px;
+    background-image: url(./images/school2.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+    background-attachment: fixed;
+}
+.section1 div{
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    left: 90px;
+    top: 200px;
+    word-wrap: break-word;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+/* section2 */
+.section2{
+    width: 98%;
+    margin: 3rem auto;
+}
+.section2 .find-program{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section2 .program{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 3rem auto;
+    height: 300px;
+}
+.section2 .program div{
+    padding: 10px;
+    border-radius: 10px;
+}
+.program .program1{
+    background-image: url(./images/school4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+}
+.program .program2{
+    background-image: url(./images/programs-mba.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+}
+.program .program3{
+    background-image: url(./images/school5.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+}
+.program .program4{
+    background-image: url(./images/school6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+}
+.program .program1 div,
+.program .program2 div,
+.program .program3 div,
+.program .program4 div{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 75%;
+    background-color: rgb(150, 44, 44);
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.program div a{
+    text-decoration: none;
+    color: white;
+}
+.program .program4 a{
+    color: black;
+}
+.program .program4 div{
+    background-color: goldenrod;
+}
+.program div h4{
+    padding-top: 10px;
+}
+
+/* section3 */
+.section3{
+    margin: 2rem auto;
+}
+.application-header{
+    text-align: center;
+}
+.application{
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 98%;
+    margin: 2.5rem auto;
+}
+.application-con1 img{
+    width: 100%;
+    height: 100%;
+}
+.application-con2{
+    height: 100%;
+    background-color: #dedede;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+.application-con2 div{
+    width: 50%;
+    margin: 3rem auto auto 3rem;
+}
+.application-con2 button{
+    padding: 13px 20px;
+    background-color: rgb(150, 44, 44);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    margin-top: 40px;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+}
+.application-con2 a{
+    text-decoration: none;
+    color: white;
+}
+
+/* section4 */
+.section4{
+    margin: 5rem auto;
+}
+.winners{
+    text-align: center;
+}
+.winner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 98%;
+    margin: 3rem auto;
+}
+.winner1{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.winner1 img{
+    width: 100%;
+    height: 250px;
+    /* object-fit: contain; */
+}
+.winner1 h4{
+    font-weight: 800;
+    margin: 10px 0;
+    font-size: 14px;
+}
+.winner1 p{
+    font-size: 15px;
+    color: #565656;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+/* footer */
+
+
+/* All form pages */
+.form{
+    width: 50%;
+    margin: 40px auto auto auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.login,
+.school_register,
+.student_register{
+    margin: 7rem auto auto auto;
+}
+.login h2,
+.school_register h2,
+.student_register h2{
+    text-align: center;
+    color: black;
+}
+.form button{
+    background-color: rgb(150, 44, 44);
+    color: white;
+}
+.form button:hover{
+    background-color: #dedede;
+    color: black;
+}
+span{
+    color: rgb(230, 19, 19);
+    font-size: 11px;
+}
+
+
