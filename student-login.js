@@ -30,8 +30,9 @@ stdLoginBtn.onclick = (e) => {
         for (let i = 0; i < storedData.length; i++) {
             if(storedData[i].email == login_email.value && storedData[i].password == login_password.value) {
                 alert('Welcome, ' + storedData[i].Stdname + ' you have successfully logged in.');
+                window.location.href = 'quiz-guide.html';
             }else{
-                alert('Your Login is Unsuccessfull')
+                alert('Your Login is Unsuccessfull');
                 window.location.reload();
             }
         }

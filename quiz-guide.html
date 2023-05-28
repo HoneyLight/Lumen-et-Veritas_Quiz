@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Student Login</title>
-        <link rel="stylesheet" href="./bootstrap.min.css" />
-        <link rel="stylesheet" href="style.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LumenAcademy Quiz Competition</title>
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-md fixed-top">
@@ -22,10 +24,10 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="home.html">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item collapse">
                             <a class="nav-link active" href="school-register.html">Register School</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item collapse">
                             <a class="nav-link active" href="student-register.html">Register Student</a>
                         </li>
                         <li class="nav-item">
@@ -40,23 +42,23 @@
         </nav>
     </header>
     <main>
-        <div class="login">
-            <h2>Student Login</h2>
-        </div>
-        <form action="" class="form">
-            <div class="form-group mb-3">
-                <label for="" class="form-label">Email Address</label>
-                <input type="email" id="login_email" class="input form-control">
-                <span class="errMsg"></span>
+        <div class="quiz-guide">
+            <h5 style="color: rgb(112, 41, 41);">WELCOME ON BOARD!</h5>
+            <h1 style="color: rgb(150, 44, 44); font-size: 70px;">Quiz Guide</h1>
+            <p>Kindly read through the instructions carefully:</p>
+            <ol>
+                <li>You have 10 questions to answer.</li>
+                <li>You have only 12 seconds for each question.</li>
+                <li>Once you select your answer, it can't be undone.</li>
+                <li>You'll get points on the basis of your correct answers.</li>
+                <li>You can't exit from the quiz while you are playing.</li>
+            </ol>
+            <div class="quiz-guide_btn">
+                <a href="home.html"><button class="exit">Exit</button></a>
+                <button class="continue" id="continueBtn">Continue</button>
             </div>
-            <div class="form-group mb-3">
-                <label for="" class="form-label">Password</label>
-                <input type="text" id="login_password" class="input form-control">
-                <span class="errMsg"></span>
-            </div>   
-            <div class="stdLogin "><button id="stdLoginBtn" class="btn">Submit</button></div>     
-        </form>
+        </div>
     </main>
 </body>
-<script src="./student-login.js"></script>
+<script src="quiz-guide.js"></script>
 </html>

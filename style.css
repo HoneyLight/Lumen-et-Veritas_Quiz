@@ -111,7 +111,7 @@ body{
     text-align: center;
 }
 .application{
-    height: 400px;
+    /* height: 400px; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 98%;
@@ -128,7 +128,7 @@ body{
     font-weight: 800;
 }
 .application-con2 div{
-    width: 50%;
+    width: 60%;
     margin: 3rem auto auto 3rem;
 }
 .application-con2 button{
@@ -138,7 +138,7 @@ body{
     font-size: 16px;
     cursor: pointer;
     border: none;
-    margin-top: 40px;
+    margin-top: 20px;
     display: inline-block;
     outline: none;
     border-radius: 5px;
@@ -214,9 +214,83 @@ body{
     background-color: #dedede;
     color: black;
 }
-span{
+.errMsg{
     color: rgb(230, 19, 19);
     font-size: 11px;
 }
 
+/* quiz.html */
+.quiz-field{
+    width: 60%;
+    margin: 6rem auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+#stdDetails{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    margin: 5px auto 20px auto;
+}
+.questions h5{
+    text-align: center;
+}
+.answer_btns button{
+    width: 100%;
+    padding: 13px 0px 13px 7px;
+    background-color: rgb(247, 245, 245);
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    /* border-color: #dedede; */
+    display: inline-block;
+    outline: none;
+    border-radius: 4px;
+    text-align: left;
+}
 
+/* quiz guide page */
+.quiz-guide{
+    width: 45%;
+    margin: 6rem auto;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 3px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.quiz-guide li {
+    font-weight: 500;
+    line-height: 1.7;
+}
+.quiz-guide_btn {
+    text-align: end;
+}
+.quiz-guide_btn button{
+    padding: 10px 30px;
+    background-color: rgb(150, 44, 44);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    outline: none;
+    margin-right: 10px;
+    border-radius: 3px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* about-quiz. html */
+.about-quiz{
+    width: 96%;
+    margin: 5rem auto;
+}
+.about-quiz_div {
+    gap: 20px;
+}
+.about-quiz_con2{
+    background-color: #eeeeee;
+}
